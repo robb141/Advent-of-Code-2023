@@ -15,7 +15,6 @@ starters = [j for j in d.keys() if j.endswith('A')]
 
 Z = []
 for s in range(len(starters)):
-    elem = ''
     step = 1
     i = 0
     elem = starters[s]
